@@ -1,0 +1,67 @@
+/* GLOBAL */
+html,body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/* HEADER */
+.header img{
+    width: 250px;
+}
+
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px 0;
+    margin: 5px 0 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header li{
+    display: inline;
+    margin: 0 10px;
+}
+/* CAROUSEL xem lại */
+.carousel img{
+    width: 100%;
+}
+
+/* INTRO */
+.intro span{
+    font-weight: bold;
+    color: red;
+}
+
+.intro p{
+    font-size: 20px;
+}
+
+/* PRODUCTS */
+.products h2{
+    text-align: center;
+}
+
+.products button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.products__item{
+    float:left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.products p{
+    padding: 5px 0 20px;
+}
